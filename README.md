@@ -18,6 +18,7 @@ $ LD_PRELOAD=./libleakmydata.so curl https://self-signed.badssl.com/
 
 - OpenSSL
 - GnuTLS
+- WebKit2GTK (Tested with Midori and Epiphany browsers)
 
 Eventually, I'd like to come up with some method of hooking into Firefox/Chrome,
 which each use staticly linked SSL libraries.

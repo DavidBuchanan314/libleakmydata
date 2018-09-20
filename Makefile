@@ -1,4 +1,5 @@
 CFLAGS := $(CFLAGS) -fPIC -Wall
+CFLAGS := $(CFLAGS) `pkg-config --cflags --libs webkit2gtk-4.0`
 
 TARGET = libleakmydata
 
